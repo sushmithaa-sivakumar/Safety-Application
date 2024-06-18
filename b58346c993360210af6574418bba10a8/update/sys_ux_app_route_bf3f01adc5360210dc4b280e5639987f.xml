@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">6b3f01ad93360210af6574418bba1031</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,table</fields>
+        <icon/>
+        <name>Record Page(request)</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>record_request</route_type>
+        <screen_type display_value="Record Page(request)">fb3f01ad78360210d17c8921c170d182</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-14 18:57:32</sys_created_on>
+        <sys_id>bf3f01adc5360210dc4b280e5639987f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(request)</sys_name>
+        <sys_package display_value="Safety" source="x_1438986_safety">b58346c993360210af6574418bba10a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">b58346c993360210af6574418bba10a8</sys_scope>
+        <sys_update_name>sys_ux_app_route_bf3f01adc5360210dc4b280e5639987f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:57:32</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf3f01adc5360210dc4b280e5639987f"/>
+</record_update>

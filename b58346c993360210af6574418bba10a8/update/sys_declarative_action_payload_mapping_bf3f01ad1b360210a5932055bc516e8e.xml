@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Approve">f33f01ad5c360210c9f1a4a54b67ee90</action_payload_definition>
+        <label>Approve Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-14 18:57:30</sys_created_on>
+        <sys_id>bf3f01ad1b360210a5932055bc516e8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Evam</sys_name>
+        <sys_package display_value="Safety" source="x_1438986_safety">b58346c993360210af6574418bba10a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">b58346c993360210af6574418bba10a8</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_bf3f01ad1b360210a5932055bc516e8e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:57:30</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

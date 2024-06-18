@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search Page">3f3f01adf3360210511d94a4793d117e</macroponent>
+        <name>handle_pagination</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers }) {
+	const props = api.context.props;
+	const fields = {
+		searchContextConfigId: props.searchContextConfigId,
+		searchTerm: props.searchTerm
+	};
+	const token = event.payload.paginationToken;
+	const params = {
+		searchFilters: props.searchFilters,
+		facetFilters: props.facetFilters,
+		disableSpellCheck: props.disableSpellCheck,
+		paginationToken: token
+	};
+	global.window.scrollTo(0, 0);
+	helpers.navigate.to('search', fields, params);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-14 18:57:32</sys_created_on>
+        <sys_id>ff3f01ad3b360210fd707f2ee72c947e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_pagination</sys_name>
+        <sys_package display_value="Safety" source="x_1438986_safety">b58346c993360210af6574418bba10a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">b58346c993360210af6574418bba10a8</sys_scope>
+        <sys_update_name>sys_ux_client_script_ff3f01ad3b360210fd707f2ee72c947e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:57:32</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

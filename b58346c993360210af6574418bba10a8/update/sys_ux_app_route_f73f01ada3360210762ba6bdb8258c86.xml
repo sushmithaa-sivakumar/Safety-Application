@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">6b3f01ad93360210af6574418bba1031</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Attachments</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record Page(request)">b73f01ad45360210e4ff3033d4648687</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_req_att</route_type>
+        <screen_type display_value="Attachments">3f3f01ad42360210208224b36582a087</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-14 18:57:30</sys_created_on>
+        <sys_id>f73f01ada3360210762ba6bdb8258c86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachments</sys_name>
+        <sys_package display_value="Safety" source="x_1438986_safety">b58346c993360210af6574418bba10a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">b58346c993360210af6574418bba10a8</sys_scope>
+        <sys_update_name>sys_ux_app_route_f73f01ada3360210762ba6bdb8258c86</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:57:30</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=f73f01ada3360210762ba6bdb8258c86"/>
+</record_update>

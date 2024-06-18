@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Page(task)">7b3f01ad92360210ce71634f07925487</macroponent>
+        <name>breadcrumbs_1_items</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Home",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    return [{
+
+            "label": helpers.translateSync("Home"),
+
+            "icon": "home-outline",
+
+            "hideLabel": false
+
+        },
+
+        {
+
+            "label": api.data.look_up_record_1.result.number.displayValue
+
+        }
+
+    ];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-14 18:57:31</sys_created_on>
+        <sys_id>7f3f01ad16360210e9d00e792f3ac677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>breadcrumbs_1_items</sys_name>
+        <sys_package display_value="Safety" source="x_1438986_safety">b58346c993360210af6574418bba10a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">b58346c993360210af6574418bba10a8</sys_scope>
+        <sys_update_name>sys_ux_client_script_7f3f01ad16360210e9d00e792f3ac677</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:57:31</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>
